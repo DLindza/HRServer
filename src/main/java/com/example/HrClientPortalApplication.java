@@ -28,7 +28,7 @@ public class HrClientPortalApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		TimeCard timeCard1 = new TimeCard("Sujatha", "9:00am", "9:00pm", "2016-10-26");
-		TimeCard timeCard2 = new TimeCard("Devon", "10:00am", "7:00pm", "2016-10-26");
+		TimeCard timeCard2 = new TimeCard("Devon", "10:00am", "7:00pm", "2016-10-27");
 		timeCardRepository.save(timeCard1);
 		timeCardRepository.save(timeCard2);
 
